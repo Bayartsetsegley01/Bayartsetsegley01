@@ -1,26 +1,23 @@
-name: Profile assets
+name: Profile banner
 
 on:
-  schedule:
-    - cron: "15 22 * * *"   # daily, 06:15 Ulaanbaatar time
   workflow_dispatch:
   push:
     branches: [main]
     paths:
-      - "assets/*.json"
       - "assets/source/**"
-      - "scripts/**"
+      - "scripts/banner/**"
       - ".github/workflows/profile.yml"
 
 permissions:
   contents: write
 
 concurrency:
-  group: profile-assets
+  group: profile-banner
   cancel-in-progress: true
 
 jobs:
-  build:
+  banner:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -30,21 +27,6 @@ jobs:
           python-version: "3.12"
           cache: pip
           cache-dependency-path: scripts/banner/requirements.txt
-
-      # Hand-authored charts (edit the JSON files to change them)
-      - name: Skill radar
-        run: python scripts/radar.py --data assets/skills.json -o assets/radar
-      - name: Language radar
-        run: python scripts/radar.py --data assets/langmix.json -o assets/radar-langs --values
-      - name: Journey timeline
-        run: python scripts/timeline.py --data assets/journey.json -o assets/journey
-
-      # Live cards. METRICS_TOKEN (optional PAT) unlocks contribution + streak tiles;
-      # the built-in GITHUB_TOKEN is the fallback.
-      - name: Project, stats and language cards
-        env:
-          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
-        run: python scripts/cards.py --user "${{ github.repository_owner }}" --out assets
 
       # Animated banner (deterministic, so an unchanged input produces no diff)
       - name: Banner
@@ -57,5 +39,5 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add assets
-          git diff --staged --quiet || git commit -m "chore: refresh profile assets"
+          git diff --staged --quiet || git commit -m "chore: refresh banner"
           git push
