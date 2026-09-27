@@ -49,10 +49,3 @@
 
 </div>
 
----
-
-<div align="center">
-
-<sub>`built with Python · SVG · GitHub Actions — © 2026 Bayartsetseg Tsogtbaatar`</sub>
-
-</div>
