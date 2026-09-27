@@ -50,7 +50,7 @@ ROWS = [
     ("Role", "Software Developer"),
     ("Origin", "Ulaanbaatar, Mongolia"),
     ("Education", "MUST · B.Sc. IT · GPA 3.5"),
-    ("Status", "Open to work · Building + Shipping"),
+    ("Status", "Working as Software Developer"),
     ("Core.Lang", "TypeScript · JavaScript · Python · Java"),
     ("Core.Frontend", "React · Next.js · Tailwind · Vite"),
     ("Core.Mobile", "React Native · Expo"),
@@ -63,7 +63,7 @@ ROWS = [
     ("Grid.GitHub", "Bayartsetsegley01"),
 ]
 
-FOOTER_LEFT = "● OPEN TO WORK · SOFTWARE ENGINEER"
+FOOTER_LEFT = "● CURRENTLY WORKING · SOFTWARE DEVELOPER"
 FOOTER_RIGHT = "UTC+8 · ULAANBAATAR NODE"
 
 THEMES = {
