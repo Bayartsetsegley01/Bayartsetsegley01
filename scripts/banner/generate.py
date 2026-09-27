@@ -35,7 +35,7 @@ MONOGRAM = SRC_DIR / "monogram.png"
 ASSETS = ROOT / "assets"
 LOGOS = Path(__file__).resolve().parent / "logos"
 
-VERSION = "v1"          # bump + update README <picture> paths to bust GitHub's cache
+VERSION = "v2"          # bump + update README <picture> paths to bust GitHub's cache
 HANDLE = "@Bayartsetsegley01"
 
 W, H = 1180, 610
