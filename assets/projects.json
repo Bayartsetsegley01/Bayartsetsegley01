@@ -1,0 +1,53 @@
+{
+  "_comment": "Featured projects, in README order. status: live | in-progress | open-source. Edit and the Charts workflow redraws the cards. Links live in README.md.",
+  "projects": [
+    {
+      "name": "FinLoan Admin",
+      "category": "FinTech · Frontend",
+      "status": "live",
+      "tagline": "White-label loan management admin",
+      "description": "Admin system for banks and NBFIs: browse, search and filter loans, register new ones, drill into details. Per-tenant name, colors and branding, reusable UI blocks, fully responsive.",
+      "tags": ["Next.js", "TypeScript", "Tailwind", "i18n"]
+    },
+    {
+      "name": "TradeJournal",
+      "category": "Full-Stack · AI",
+      "status": "live",
+      "tagline": "AI-assisted trading journal",
+      "description": "Log trades, results and mental state, then analyze them. REST API, auth, PostgreSQL, analytics and personal AI insights powered by the Claude API.",
+      "tags": ["React", "Node.js", "Express", "PostgreSQL", "Claude API"]
+    },
+    {
+      "name": "LendFlow Lite",
+      "category": "Lending · Full-Stack",
+      "status": "open-source",
+      "tagline": "Loan workflow with credit scoring",
+      "description": "Loan applications, rule-based credit scoring, admin review, disbursement and EMI schedules. @Transactional updates keep account, loan and ledger atomic. JWT auth, Docker Compose.",
+      "tags": ["Spring Boot", "JWT", "PostgreSQL", "React", "Docker"]
+    },
+    {
+      "name": "NEYRA",
+      "category": "Mobile · AI",
+      "status": "in-progress",
+      "tagline": "AI vision board -> daily action plan",
+      "description": "Turns a vision board and goals into AI-generated steps, then tracks daily progress with photos. Auth, database, image storage and AI features wired into one system.",
+      "tags": ["React Native", "Expo", "Supabase", "AI API"]
+    },
+    {
+      "name": "FinTech Transaction API",
+      "category": "FinTech · Backend",
+      "status": "open-source",
+      "tagline": "Accounts, transfers, ledger",
+      "description": "Users, accounts, income, expenses and account-to-account transfers with balance checks, transaction history and atomic DB transactions. BigDecimal for every money value.",
+      "tags": ["Java", "Spring Boot", "JPA", "PostgreSQL"]
+    },
+    {
+      "name": "FinTech Dashboard",
+      "category": "FinTech · Frontend",
+      "status": "open-source",
+      "tagline": "Banking admin dashboard UI",
+      "description": "Built from the BankDash Figma kit: dashboard, transactions, accounts, customers, analytics and settings. Recharts charts, React Router, Zustand state, fully responsive.",
+      "tags": ["React", "TypeScript", "Recharts", "Zustand"]
+    }
+  ]
+}

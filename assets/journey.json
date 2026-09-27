@@ -1,0 +1,30 @@
+{
+  "_comment": "Edit and the Charts workflow redraws assets/journey-*.svg. The last milestone is marked NOW.",
+  "milestones": [
+    {
+      "year": "2022",
+      "title": "Hello, world",
+      "items": ["Started B.Sc. in Information Technology at MUST (ШУТИС), School of ICT"]
+    },
+    {
+      "year": "2023",
+      "title": "Inside real systems",
+      "items": ["IT internships at Khan Bank & XacBank", "Fibo Cloud Scholar, job offer received"]
+    },
+    {
+      "year": "2024",
+      "title": "Design x community",
+      "items": ["Google UX Design Certificate (Grow with Google)", "Volunteer organizer, Women Techmakers Mongolia"]
+    },
+    {
+      "year": "2025",
+      "title": "Shipping for users",
+      "items": ["UX/UI Intern at Bimex Holding, job offer received", "Google Prompting & AI Essentials", "DataCamp Scholar"]
+    },
+    {
+      "year": "2026",
+      "title": "Graduate & builder",
+      "items": ["B.Sc. IT, GPA 3.5, ranked 5th of 80", "IBM Full Stack Developer track", "Shipped TradeJournal, FinLoan, LendFlow"]
+    }
+  ]
+}
