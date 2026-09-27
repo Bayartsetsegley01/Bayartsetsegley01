@@ -17,14 +17,6 @@
 
 <br>
 
-<!-- SOCIALS -->
-<a href="https://bayartsetseg-portfolio.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-0F1024?style=for-the-badge&logo=vercel&logoColor=B69CFF" alt="Portfolio"></a>&nbsp;&nbsp;
-<a href="mailto:bayartsetsegley@gmail.com"><img src="https://img.shields.io/badge/Email-0F1024?style=for-the-badge&logo=gmail&logoColor=B69CFF" alt="Email"></a>&nbsp;&nbsp;
-<a href="https://github.com/Bayartsetsegley01?tab=repositories"><img src="https://img.shields.io/badge/Repositories-0F1024?style=for-the-badge&logo=github&logoColor=B69CFF" alt="Repositories"></a>&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/Open_to_work-34D399?style=for-the-badge&logo=checkmarx&logoColor=0F1024" alt="Open to work">
-
-<br>
-
 <img src="https://komarev.com/ghpvc/?username=Bayartsetsegley01&style=flat&color=b69cff&label=profile+views" alt="profile views">
 
 </div>
